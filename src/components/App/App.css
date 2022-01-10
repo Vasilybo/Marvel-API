@@ -1,0 +1,66 @@
+:root {
+--color-blue: #3199dc;
+--color-dark: #222222;
+--color-light: #f8f9fa;
+--color-white: #fff;
+--color-black: #000;
+
+--spacing-small: 10px;
+--spacing-medium: 15px;
+--spacing-large: 20px;
+
+--box-shadow: 0 2px 24px rgba(168, 175, 196, 0.5);
+}
+
+*, ::after, ::before {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+padding: 0;
+background-color: var(--color-dark);
+font-size: 16px;
+line-height: 1.7;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+scrollbar-color: var(--color-blue) var(--color-dark);
+scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+::-webkit-scrollbar-thumb {
+background-color: var(--color-blue);
+border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+background-color: var(--color-dark);
+}
+
+:global(.img-contain) {
+display: block;
+object-fit: contain;
+object-position: center;
+}
+
+:global(.img-cover) {
+display: block;
+object-fit: cover;
+object-position: center;
+}
+
+:global(.btn) {
+border: none;
+outline: none;
+background: none;
+cursor: pointer;
+}
+:global(.bg-contain) {
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+}
