@@ -1,6 +1,6 @@
 import {getDataApi} from '../../utilites/getdataapi.js';
 import {IMG_STANDARD_XLARGE} from '../../constants/api.js';
-import {ROOT_MODAL} from '../../Constants/root';
+// import {ROOT_MODAL} from '../../Constants/root';
 
 import classes from './Characters.css';
 
